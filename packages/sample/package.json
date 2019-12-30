@@ -24,7 +24,8 @@
         "jwt-decode": "2.2.0",
         "connected-react-router": "^6.6.1",
         "history": "^4.10.1",
-        "dayjs": "1.8.18"
+        "date-fns": "2.8.1",
+        "date-fns-tz": "1.0.9"
     },
     "devDependencies": {
         "@types/node": "^13.1.1",
