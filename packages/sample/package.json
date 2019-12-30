@@ -23,7 +23,8 @@
         "rxjs": "^6.5.4",
         "jwt-decode": "2.2.0",
         "connected-react-router": "^6.6.1",
-        "history": "^4.10.1"
+        "history": "^4.10.1",
+        "dayjs": "1.8.18"
     },
     "devDependencies": {
         "@types/node": "^13.1.1",

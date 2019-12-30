@@ -100,3 +100,4 @@ Sample.Chart.Name/obj
 Sample.Chart.Name/wwwroot
 
 build/
+TestCoverage/
