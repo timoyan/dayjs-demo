@@ -1,0 +1,49 @@
+{
+    "name": "@sample/core-scripts",
+    "version": "0.1.0",
+    "description": "",
+    "scripts": {
+        "build": "npx tsc --outDir bin",
+        "publish-script": "npm publish"
+    },
+    "bin": {
+        "core-scripts": "./bin/core-scripts.js"
+    },
+    "author": "Timo Yan",
+    "license": "ISC",
+    "dependencies": {
+        "@types/webpack": "4.41.0",
+        "@types/webpack-dev-server": "3.9.0",
+        "typescript": "3.7.4",
+        "happypack": "5.0.1",
+        "@babel/core": "7.7.7",
+        "@babel/preset-env": "7.7.7",
+        "babel-loader": "8.0.6",
+        "ts-loader": "6.2.1",
+        "chalk": "3.0.0",
+        "clean-webpack-plugin": "3.0.0",
+        "cross-env": "6.0.3",
+        "css-loader": "3.4.0",
+        "file-loader": "5.0.2",
+        "html-webpack-plugin": "3.2.0",
+        "mini-css-extract-plugin": "0.9.0",
+        "optimize-css-assets-webpack-plugin": "5.0.3",
+        "postcss-flexbugs-fixes": "4.1.0",
+        "postcss-loader": "3.0.0",
+        "postcss-preset-env": "6.7.0",
+        "postcss-safe-parser": "4.0.1",
+        "source-map-loader": "0.2.4",
+        "style-loader": "1.1.2",
+        "terser-webpack-plugin": "2.3.1",
+        "url-loader": "3.0.0",
+        "webpack": "4.41.5",
+        "webpack-dev-server": "3.10.1",
+        "yargs": "15.0.2",
+        "detect-port-alt": "1.1.6",
+        "is-root": "2.1.0",
+        "inquirer": "7.0.1",
+        "pkg-up": "3.1.0",
+        "browserslist": "4.8.2",
+        "ts-node": "8.5.4"
+    }
+}
